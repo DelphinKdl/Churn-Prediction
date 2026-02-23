@@ -2,7 +2,7 @@
 
 ## A Machine Learning Application that predicts customer churn for telecom companies, enabling proactive retention strategies and reducing revenue loss.
 
-![ML System Design](images/Churn-prediction%20architecture.png)
+![Customer Churn](images/Customer-Churn.png)
 
 ## Executive Summary
 
@@ -39,7 +39,7 @@ I utilized **Minority Class Upsampling** to address the 73/27 class imbalance in
 
 **Engineering Decision**: I selected the **CatBoost + Optuna** model for production because it offers the highest Precision (0.64). In a business context, this ensures retention marketing budgets are spent on the customers most likely to actually leave, minimizing "waste" on customers who would have stayed regardless.
 
----
+
 ## Visual Intelligence (Power BI)
 To translate model findings into stakeholder-ready insights, I developed a 4-page interactive dashboard focused on Customer Retention Analytics.
 
@@ -70,7 +70,7 @@ Based on the combined ML findings and Power BI analysis, I recommend the followi
 - **Marketing interaction**: Click-through rate on emails, offers redeemed
 - **Net promoter score (NPS)** or survey feedback when available
 - **Account age**: Days since sign-up or subscription
-- **Inactivity streak**: Longest stretch of inactivity in recent time window
+- **Inactivity streak**: Longest stretch of inactivity in the recent time window
 
 ### Target
 
