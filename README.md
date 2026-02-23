@@ -1,4 +1,4 @@
-# Telco Customer Churn Prediction System
+# Customer Churn Prediction System
 
 ## A Machine Learning Application that predicts customer churn for telecom companies, enabling proactive retention strategies and reducing revenue loss.
 
