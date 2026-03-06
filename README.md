@@ -1,9 +1,5 @@
 # Customer Churn Prediction System
 
-## A Machine Learning Application that predicts customer churn for telecom companies, enabling proactive retention strategies and reducing revenue loss.
-
-![Customer Churn](images/Customer-Churn.png)
-
 ## Executive Summary
 
 This **Customer Churn Prediction System** solves a critical business problem for telecom providers managing millions of subscribers. By implementing a CatBoost Classifier optimized with Optuna, I achieved an F1-score of 0.72, providing a 0.64 precision on the churn class. This allows the business to transition from reactive support to proactive retention, targeting the specific segments (Month-to-Month and Fiber Optic users) that drive the majority of revenue leakage.
